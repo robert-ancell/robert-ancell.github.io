@@ -18,4 +18,4 @@ This blog is where I record my thoughts on open source software development: the
 - Open source process and tooling
 - Whatever else is directly in front of me at the time
 
-My old blog, [Bob the Gnome](https://bobthegnome.blogspot.com), is still up for historical reference. Most of my projects live on [GitHub](https://github.com/robert-ancell).
+My old blog, [Bob the Gnome](https://bobthegnome.blogspot.com), is still up for historical reference. Most of my projects live on [GitHub](https://github.com/robert-ancell), and I'm also on [LinkedIn](https://www.linkedin.com/in/robertancell/).
