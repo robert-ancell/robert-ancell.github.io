@@ -1,0 +1,4 @@
+baseURL = "https://robert-ancell.github.io/"
+languageCode = "en-us"
+title = "Thinking Open"
+theme = "PaperMod"
