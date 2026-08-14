@@ -1,0 +1,71 @@
+/* An app's page header: icon on the left, name and one line beside it. */
+.app-header {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.app-icon {
+  width: 88px;
+  height: 88px;
+  /* The launcher icon is a square; the same rounding the stores give it
+     stops it reading as a screenshot. */
+  border-radius: 20%;
+  flex: none;
+}
+
+.app-heading h1 {
+  margin-bottom: 4px;
+}
+
+@media (max-width: 480px) {
+  .app-header {
+    gap: 14px;
+  }
+  .app-icon {
+    width: 64px;
+    height: 64px;
+  }
+}
+
+/* The shelf on /apps/: icon, name, and the one line that says what it is. */
+.app-entry a {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.app-entry-icon {
+  width: 64px;
+  height: 64px;
+  border-radius: 20%;
+  flex: none;
+}
+
+.app-entry-text h2 {
+  margin-bottom: 2px;
+}
+
+.app-entry .entry-content {
+  margin: 0;
+}
+
+/* The store badges: the stores' own artwork, unaltered, with the clear
+   space around them that both ask for. */
+.app-store-badges {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 12px;
+  margin: 24px 0;
+}
+
+.app-store-badges a {
+  display: inline-block;
+  line-height: 0;
+}
+
+.app-store-badges img {
+  height: 60px;
+  width: auto;
+}

@@ -1,0 +1,32 @@
+{{- define "main" }}
+
+{{/* The apps, each with its icon: a list of names reads as a list of
+     links, where the icons make it a shelf. Only /apps/ uses this — an
+     app's own page is `type = "app"` and has its own layout. */}}
+<header class="page-header">
+  <h1>{{ .Title }}</h1>
+  {{- with .Description }}<div class="post-description">{{ . | markdownify }}</div>{{ end }}
+</header>
+
+{{- if .Content }}
+<div class="post-content md-content">{{ .Content }}</div>
+{{- end }}
+
+{{- range .Pages }}
+<article class="post-entry app-entry">
+  <a href="{{ .Permalink }}" aria-label="{{ .Title }}">
+    {{- with .Resources.GetMatch "icon.png" }}
+    <img class="app-entry-icon" src="{{ .RelPermalink }}" width="64" height="64"
+         alt="" loading="lazy">
+    {{- end }}
+    <div class="app-entry-text">
+      <h2 class="entry-hint-parent">{{ .Title }}</h2>
+      {{- with .Params.summary }}
+      <div class="entry-content">{{ . | markdownify }}</div>
+      {{- end }}
+    </div>
+  </a>
+</article>
+{{- end }}
+
+{{- end }}{{/* define "main" */}}

@@ -1,0 +1,53 @@
+{{- define "main" }}
+
+{{/* An app's own page: the icon beside the name, the way a store or any
+     other app page does it. Only pages with `type = "app"` use this —
+     /apps/ itself keeps the theme's list layout, and so does the privacy
+     policy underneath. */}}
+<header class="page-header app-header">
+  {{- with .Resources.GetMatch "icon.png" }}
+  <img class="app-icon" src="{{ .RelPermalink }}" width="96" height="96"
+       alt="{{ $.Title }} icon">
+  {{- end }}
+  <div class="app-heading">
+    <h1>{{ .Title }}</h1>
+    {{- with .Params.summary }}
+    <div class="post-description">{{ . | markdownify }}</div>
+    {{- end }}
+  </div>
+</header>
+
+{{/* Where to get it, when it is somewhere to be got. In front matter
+     rather than in the body: it is a fact about the app, and every app
+     page should put it in the same place. */}}
+{{- if or .Params.play .Params.appstore }}
+<p class="app-store-badges">
+  {{- with .Params.play }}
+  {{/* Google's own artwork, served from here rather than from them: a
+       badge hotlinked off play.google.com tells Google who is reading
+       this page, which is not a thing to hand over for an image. The
+       badge is 646x250; 60px tall keeps its proportions and clears
+       Google's minimum. */}}
+  <a href="{{ . }}" rel="noopener">
+    <img src="/badges/google-play.png" alt="Get it on Google Play"
+         width="155" height="60">
+  </a>
+  {{- end }}
+  {{- with .Params.appstore }}
+  <a href="{{ . }}" rel="noopener">
+    <img src="/badges/app-store.svg" alt="Download on the App Store"
+         width="150" height="50">
+  </a>
+  {{- end }}
+</p>
+{{- end }}
+
+{{- if .Content }}
+<div class="post-content md-content">
+  {{- if not (.Param "disableAnchoredHeadings") }}
+  {{- partial "anchored_headings.html" .Content -}}
+  {{- else }}{{ .Content }}{{ end }}
+</div>
+{{- end }}
+
+{{- end }}{{/* define "main" */}}

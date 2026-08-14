@@ -9,6 +9,11 @@ theme = "PaperMod"
   weight = 10
 
 [[menu.main]]
+  name = "Apps"
+  url = "/apps/"
+  weight = 15
+
+[[menu.main]]
   name = "Posts"
   url = "/posts/"
   weight = 20
@@ -17,3 +22,8 @@ theme = "PaperMod"
   name = "Tags"
   url = "/tags/"
   weight = 30
+
+[params]
+  # The blog feed is posts; the apps have their own section and should
+  # not turn up between them on the front page.
+  mainSections = ["posts"]
