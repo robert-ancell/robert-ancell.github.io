@@ -34,9 +34,16 @@
   </a>
   {{- end }}
   {{- with .Params.appstore }}
+  {{/* Apple's badge is their artwork and has to be theirs, unmodified,
+       from their marketing resources — so until it is in static/badges
+       this is a plain link rather than a picture of one. A missing file
+       under an img tag is a broken image on the page, which is worse
+       than a link that says where it goes. */}}
   <a href="{{ . }}" rel="noopener">
+    {{- if fileExists "static/badges/app-store.svg" }}
     <img src="/badges/app-store.svg" alt="Download on the App Store"
          width="150" height="50">
+    {{- else }}On the App Store{{ end }}
   </a>
   {{- end }}
 </p>

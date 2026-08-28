@@ -2,6 +2,8 @@
 title = 'NZ Golf Atlas'
 summary = 'Every golf course in New Zealand, beautifully drawn, and working with no signal.'
 type = 'app'
+play = 'https://play.google.com/store/apps/details?id=io.github.robert_ancell.nz_golf_atlas'
+appstore = 'https://apps.apple.com/app/id6801475424'
 +++
 
 **Every golf course in New Zealand, drawn beautifully.**
@@ -11,9 +13,9 @@ tees, water and paths drawn as shapes, with the lie of the land under
 them, so you can see the slope a photo hides. The best-mapped courses go
 down to the last stream and cart path.
 
-More than 400 courses are in the app. There is no download when you get
-there, no spinner on the first tee, and no "no connection" where the
-coverage runs out. The map you need at a nine-holer in Southland is the
+Every course in the country is in the app already. There is no download
+when you get there, no spinner on the first tee, and no "no connection"
+where the coverage runs out. The map you need at a nine-holer in Southland is the
 same map you had at home.
 
 ## On the course
@@ -21,7 +23,7 @@ same map you had at home.
 - See where you are, and which way you're facing
 - Distance to the front, middle and back of the green, updating as you walk
 - Zoom from the whole course, to the hole, to the green
-- Keep score for up to four players — free
+- Keep score as you play, and keep every round — free
 - Wind, gusts and temperature at the course, hour by hour
 
 ## Finding a course
