@@ -56,10 +56,9 @@
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  /* Small, because Google's badge brings its own: the file carries 41px
-     of transparent clear space on every side of a 250px image, which at
-     the size below is another 12px of gap on the inside edge. */
-  gap: 4px;
+  /* Google asks for a quarter of the badge's height of clear space
+     around it, and the crop took the file's own away. */
+  gap: 14px;
   margin: 24px 0;
 }
 
@@ -68,26 +67,16 @@
   line-height: 0;
 }
 
-/* Sized so the two badges *look* the same size, which is not the same as
-   giving them the same height.
+/* One height for both, which works because both files are now tight to
+   the badge: Apple's SVG always was, and Google's PNG has had its clear
+   space cropped off — it shipped as 646x250 with 41px of transparent
+   padding on every side, so a shared height drew a 50px Apple badge
+   beside a 34px Google one.
 
-   Apple's SVG is tight to the badge: its artwork is the whole 119.66 x 40
-   viewBox. Google's PNG is 646 x 250 with 41px of transparent padding on
-   all four sides, so its artwork is 564 x 168 — 67.2% of the height of
-   the file. At a shared height of 60px, Apple drew a 60px badge and
-   Google drew a 40px one inside a 60px box, which is why one looked half
-   again as big as the other.
-
-   So each is sized by the badge somebody sees: 50px of artwork. Google's
-   image has to be 74.4px tall to show 50px of it (50 / 0.672). */
+   The clear space Google asks for is in the gap below instead of inside
+   the file, which is the same distance on the screen and the same
+   arrangement element.io ships. */
 .app-store-badges img {
-  width: auto;
-}
-
-.app-store-badges .badge-app-store {
   height: 50px;
-}
-
-.app-store-badges .badge-google-play {
-  height: 74.4px;
+  width: auto;
 }

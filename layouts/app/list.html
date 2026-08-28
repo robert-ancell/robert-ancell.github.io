@@ -25,12 +25,16 @@
   {{- with .Params.play }}
   {{/* Google's own artwork, served from here rather than from them: a
        badge hotlinked off play.google.com tells Google who is reading
-       this page, which is not a thing to hand over for an image. The
-       badge is 646x250; 60px tall keeps its proportions and clears
-       Google's minimum. */}}
+       this page, which is not a thing to hand over for an image.
+
+       Cropped to the badge itself — Google ships it as 646x250 with
+       41px of transparent clear space on all four sides, and Apple's
+       SVG is tight to the edge, so the two could not be given one
+       height while one of them was mostly margin. The clear space is in
+       the stylesheet's gap instead. */}}
   <a href="{{ . }}" rel="noopener">
-    <img class="badge-google-play" src="/badges/google-play.png"
-         alt="Get it on Google Play" width="192" height="74">
+    <img src="/badges/google-play.png" alt="Get it on Google Play"
+         width="168" height="50">
   </a>
   {{- end }}
   {{- with .Params.appstore }}
@@ -46,8 +50,8 @@
        have taken out again. */}}
   <a href="{{ . }}" rel="noopener">
     {{- if fileExists "static/badges/app-store.svg" }}
-    <img class="badge-app-store" src="/badges/app-store.svg"
-         alt="Download on the App Store" width="149.58" height="50">
+    <img src="/badges/app-store.svg" alt="Download on the App Store"
+         width="149.58" height="50">
     {{- else }}On the App Store{{ end }}
   </a>
   {{- end }}
