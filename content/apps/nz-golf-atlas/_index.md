@@ -13,9 +13,9 @@ tees, water and paths drawn as shapes, with the lie of the land under
 them, so you can see the slope a photo hides. The best-mapped courses go
 down to the last stream and cart path.
 
-Nearly 400 courses are in the app already. There is no download
-when you get there, no spinner on the first tee, and no "no connection"
-where the coverage runs out. The map you need at a nine-holer in Southland is the
+Nearly 400 courses are in the app already. There is no download when you
+get there, no spinner on the first tee, and no "no connection" where the
+coverage runs out. The map you need at a nine-holer in Southland is the
 same map you had at home.
 
 ## On the course
@@ -33,13 +33,10 @@ same map you had at home.
 
 ## What it costs
 
-Three courses free. Pick any three and keep them for good — your home
-club and a couple of away days. Unlock every course in the country with a
-one-off purchase. No subscription, no ads, no account, and nothing to
-sign up for.
+Three courses free. Pick any three and keep them for good — your home club and a couple of away days. Unlock every course in the country with a one-off purchase. No subscription, no ads, no account, and nothing to sign up for.
 
-Something wrong with a course? There's a button for it, and a way to draw
-on the map to show what you mean.
+Something wrong with a course? There's a button for it, and a way to
+draw on the map to show what you mean.
 
 Made in New Zealand, for the courses here.
 
