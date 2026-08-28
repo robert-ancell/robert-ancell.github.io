@@ -13,8 +13,8 @@ tees, water and paths drawn as shapes, with the lie of the land under
 them, so you can see the slope a photo hides. The best-mapped courses go
 down to the last stream and cart path.
 
-Nearly 400 courses are in the app already. There is no download when you
-get there, no spinner on the first tee, and no "no connection" where the
+Every course in the country is in the app already. There is no download
+when you get there, no spinner on the first tee, and no "no connection" where the
 coverage runs out. The map you need at a nine-holer in Southland is the
 same map you had at home.
 
