@@ -29,8 +29,8 @@
        badge is 646x250; 60px tall keeps its proportions and clears
        Google's minimum. */}}
   <a href="{{ . }}" rel="noopener">
-    <img src="/badges/google-play.png" alt="Get it on Google Play"
-         width="155" height="60">
+    <img class="badge-google-play" src="/badges/google-play.png"
+         alt="Get it on Google Play" width="192" height="74">
   </a>
   {{- end }}
   {{- with .Params.appstore }}
@@ -46,8 +46,8 @@
        have taken out again. */}}
   <a href="{{ . }}" rel="noopener">
     {{- if fileExists "static/badges/app-store.svg" }}
-    <img src="/badges/app-store.svg" alt="Download on the App Store"
-         width="149.58" height="50">
+    <img class="badge-app-store" src="/badges/app-store.svg"
+         alt="Download on the App Store" width="149.58" height="50">
     {{- else }}On the App Store{{ end }}
   </a>
   {{- end }}
