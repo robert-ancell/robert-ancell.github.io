@@ -34,15 +34,20 @@
   </a>
   {{- end }}
   {{- with .Params.appstore }}
-  {{/* Apple's badge is their artwork and has to be theirs, unmodified,
-       from their marketing resources — so until it is in static/badges
-       this is a plain link rather than a picture of one. A missing file
-       under an img tag is a broken image on the page, which is worse
-       than a link that says where it goes. */}}
+  {{/* Apple's own artwork, unmodified, from their marketing resources,
+       and served from here for the same reason Google's is. The file is
+       119.66 x 40, so 149.58 x 50 is that exactly: a badge stretched to
+       a round number is a badge against their guidelines, and 0.4px of
+       width is not worth breaking them for.
+
+       The fallback stays. A missing file under an img tag is a broken
+       image on the page, which is worse than a link that says where it
+       goes — and this file is the sort a licence review could ask to
+       have taken out again. */}}
   <a href="{{ . }}" rel="noopener">
     {{- if fileExists "static/badges/app-store.svg" }}
     <img src="/badges/app-store.svg" alt="Download on the App Store"
-         width="150" height="50">
+         width="149.58" height="50">
     {{- else }}On the App Store{{ end }}
   </a>
   {{- end }}
