@@ -86,4 +86,4 @@ version ships, and the date at the top will change.
 
 ## Contact
 
-robert.ancell@gmail.com
+nzgolfatlas@gmail.com
