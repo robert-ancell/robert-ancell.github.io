@@ -52,37 +52,18 @@ and only when you write one.
 **Reporting is always your choice.** The app never sends one on its own,
 and everything else in it works whether you ever report anything or not.
 
-If you do write a report, pressing send posts it to nzgolfatlas@gmail.com
-through a small collector we run at Cloudflare. It contains:
+If you do write a report, pressing send posts it to us. It contains:
 
 - the course it is about, and its name
-- which of the problems you ticked
 - anything you wrote in the details
 - the drawing, if you made one — a picture of the course map with your
   marks on it
-- **your email address, only if you chose to type one in**
+- **your email address, only if you chose to type one in**, which is
+  used to reply to you about that report and for nothing else
 
 That is the whole of it. Your location is not part of a report, and
 neither is anything about you or your phone: no identifier, no account,
 no device details.
-
-**The email address is optional and the field says so.** It is there for
-one reason: a report often raises a question — which hole, the green or
-the tee — and without an address there is no way to ask you. It is used
-to reply to you about your report and for nothing else. It is not added
-to any list, and there is no list to add it to.
-
-The collector stores nothing. Your report becomes an email and it is
-forgotten; there is no database of reports and no log of what they said.
-The code that does it is public, in the app's repository.
-
-On the way it passes through two companies, and nothing else: it is
-posted over an encrypted connection to **Cloudflare**, which runs the
-collector, and handed to **Resend**, which delivers the mail. Neither is
-given anything about you beyond what is in the report itself.
-
-A copy of every report you send is kept on your own device, so you can
-see what you sent.
 
 Reports are read only to improve the maps. They are not published,
 shared, or used for anything else.
