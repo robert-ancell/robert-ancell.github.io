@@ -12,7 +12,24 @@
 <div class="post-content md-content">{{ .Content }}</div>
 {{- end }}
 
+{{/* The ones somebody can actually get, first. An app with no store
+     link is not out yet, and a shelf that mixes them in alphabetical
+     order asks the reader to click one to find that out.
+
+     Worked out from the store links rather than from a weight in the
+     front matter, so the day an app gets its badges it moves up here
+     by itself. */}}
+{{- $out := slice }}
+{{- $coming := slice }}
 {{- range .Pages }}
+  {{- if or .Params.play .Params.appstore }}
+    {{- $out = $out | append . }}
+  {{- else }}
+    {{- $coming = $coming | append . }}
+  {{- end }}
+{{- end }}
+
+{{- range $out | append $coming }}
 <article class="post-entry app-entry">
   <a href="{{ .Permalink }}" aria-label="{{ .Title }}">
     {{- with .Resources.GetMatch "icon.png" }}
