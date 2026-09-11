@@ -3,11 +3,11 @@ title = 'NZ Cycle Atlas — Privacy Policy'
 summary = 'NZ Cycle Atlas collects no data.'
 +++
 
-*Last updated: 5 September 2026*
+*Last updated: 12 September 2026*
 
 **NZ Cycle Atlas collects no data.** It has no account, no analytics, no
-advertising and no tracking, and it sends nothing to us or to anyone
-else.
+advertising and no tracking, and it sends nothing about you to us or to
+anyone else.
 
 ## Your location
 
@@ -23,6 +23,12 @@ on your device and nowhere else. Deleting the app deletes them.
 
 Purchases are handled by Google Play or the App Store. We never see your
 payment details.
+
+## Updates
+
+The app asks the app store whether there is a newer version of itself.
+That is a question about the app: it sends the app's own name to the
+store and nothing about you or your phone, and the answer is not kept.
 
 ## Children
 
