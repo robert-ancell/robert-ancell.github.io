@@ -1,23 +1,20 @@
 +++
 title = 'Yellow Star'
-summary = 'A yellow star. Tap it and it does something.'
+summary = 'A yellow star with lots of animations. Tap it and see what it does.'
 type = 'app'
 play = 'https://play.google.com/store/apps/details?id=ancell.robert.star'
 +++
 
-**A yellow star on a black screen.**
+**A yellow star. Tap it and see what it does.**
 
-Tap it and it does one of six things, picked at random: it spins, it
-falls over, it turns every colour, it shrinks away and springs back, it
-swaps black for yellow, or it grows a face.
+It might spin, pop like a balloon, grow into a flower or fly around the
+screen like a paper plane. There are lots of animations, and another one
+every time you tap.
 
-That is the whole app. It fills the screen, it has no buttons, no menus
-and no settings, and there is nothing to read before it works.
+It is made as a little bit of fun, and is suitable for children of all
+ages.
 
 ![Yellow Star](screenshot.png)
-
-Free, with no ads and nothing to buy. It collects nothing and never
-contacts anything — there is no network code in it at all.
 
 ---
 
