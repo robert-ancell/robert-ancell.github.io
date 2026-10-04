@@ -1,6 +1,6 @@
 +++
 date = '2026-10-04T10:57:53+13:00'
-draft = true
+draft = false
 title = 'AI Assisted Coding'
 +++
 
