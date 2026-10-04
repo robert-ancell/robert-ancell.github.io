@@ -5,9 +5,9 @@ title = 'AI Assisted Coding'
 +++
 
 It's time to record my thoughts on AI assisted coding. What's good and bad, and where I think we're heading.
-There's not going to be anything earth shatteringly new in here - I feel there is a consensus building in the software industry and this comes from both my experiences and learning from others.
+There's not going to be anything earth-shatteringly new in here - I feel there is a consensus building in the software industry and this comes from both my experiences and learning from others.
 
-I've been using AI assisted coding seriously in my job for around 4 months and been using to for my own projects around 2 months.
+I've been using AI assisted coding seriously in my job for around 4 months, and for my own projects for around 2 months.
 I'm not going to state which systems I'm using; I'm not here to advertise any services.
 As I discuss later, I actually don't think it really matters.
 But what does matter is how this is changing the software industry.
@@ -22,7 +22,7 @@ This is the age of *disposable code*.
 This is exactly the same as disposable cutlery, junk food and plastic toys that get played with once and then thrown away.
 It's bad for you and it's bad for the environment but it exists for a reason.
 It exists because it's cheap enough to make and it fulfils a desire.
-We know it's bad and we have to minimize our use of it.
+We know it's bad and we have to minimise our use of it.
 We have the same challenges with the plastic fork - we can tackle this in healthy societies but we can't stop the fact it can be made.
 
 There's another side to disposable code.
@@ -40,12 +40,12 @@ I've changed from spending 80% of my time coding and 20% being an architect, des
 I love coding, but I also love building beautiful products that people love.
 
 AI assisted coding requires experience.
-It requires knowing the langauges, platforms, algorithms and security processes.
+It requires knowing the languages, platforms, algorithms and security processes.
 You get a lot of help with these from the AI, but you're still the one responsible.
 Using AI is like having a chainsaw.
 Everyone can probably pick up an axe and do some basic wood chopping.
 We can all do the same with a chainsaw, but the experienced operator is going to do a better job and not end up with a gory mess.
-If you're starting out in the software industry you need to lean the tools.
+If you're starting out in the software industry you need to learn the tools.
 It's what is going to allow you to build real products and not just disposable code.
 It's going to take discipline, as AI gives you that easy way out.
 But like junk food, you'll regret taking the unhealthy choice for too long.
@@ -56,7 +56,7 @@ Does AI make open source irrelevant?
 If code is so cheap can we manage the costs of maintaining all the contributions?
 I think the fundamentals remain - sharing code has always been the best way to build software.
 The rising tide of open source will continue and we'll see more open source than ever before.
-Even if you can build it yourself with AI for most projects leveraging well designed and shared platforms is still going to make better software.
+Even if you can build it yourself with AI for most projects, leveraging well designed and shared platforms is still going to make better software.
 Contributions are part of community management.
 Be clear in what expectations your project has and don't be afraid to say no.
 No project can do everything and it's always OK for contributors to build their own solutions if they want to maintain them.
@@ -69,7 +69,7 @@ It will use some price optimized RAM technology that works well in this case.
 It will cost more than the equivalent cloud service (at least initially) but I won't care.
 The model won't be quite as good (according to some benchmark) as the one by a leading provider.
 Lots of people will continue to use cloud AI providers, which is fine because it is convenient for them.
-But the open source world will be able to use AI assistance on their own terms and the price of entry will be what it aways was - if you can buy
+But the open source world will be able to use AI assistance on their own terms and the price of entry will be what it always was - if you can buy
 a basic device you can contribute.
 
 Welcome to the age of AI assisted coding and disposable code.
