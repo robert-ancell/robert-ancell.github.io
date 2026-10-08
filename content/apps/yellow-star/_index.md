@@ -18,4 +18,6 @@ fun distraction for a spare minute, and suitable for children of all ages.
 
 ---
 
+[Contact the developer](mailto:robert.ancell@gmail.com)
+
 [Privacy policy](privacy/)
